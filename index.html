@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias ao Vivo</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: black;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            background-color:black;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            max-width: 800px;
+            width: 100%;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 32px;
+            color: #fff;
+            font-weight: 600;
+        }
+
+        .news-list {
+            margin-bottom: 20px;
+        }
+
+        .news-list button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        .news-list button:hover {
+            background-color: #0056b3;
+        }
+
+        .footer {
+            font-size: 14px;
+            color: #666;
+        }
+
+        .footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 28px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Escolha uma Página de Notícias</h1>
+        
+        <div class="news-list">
+            <a href="https://www.nytimes.com/" target="_blank">
+                <button>New York Times</button>
+            </a>
+            <a href="https://nysfocus.com/" target="_blank">
+                <button>NY Focus</button>
+            </a>
+            <a href="https://mytuner-radio.com/pt/radio/pais/united-states/usut/cidade/salt-lake-city/genero/country-estacoes" target="_blank">
+                <button>myTuner Radio - Salt Lake City</button>
+            </a>
+            <a href="https://www.boisestatepublicradio.org/" target="_blank">
+                <button>Boise State Public Radio</button>
+            </a>
+            <a href="https://nymag.com/" target="_blank">
+                <button>New York Magazine</button>
+            </a>
+        </div>
+        
+        <div class="footer">
+            © 2024 Notícias ao Vivo. Todos os direitos reservados. <br>
+            <a href="https://www.nytimes.com/">Visite o New York Times</a> | 
+            <a href="https://nysfocus.com/">Visite o NY Focus</a> | 
+            <a href="https://mytuner-radio.com/pt/radio/pais/united-states/usut/cidade/salt-lake-city/genero/country-estacoes">Visite o myTuner Radio - Salt Lake City</a> | 
+            <a href="https://www.boisestatepublicradio.org/">Visite o Boise State Public Radio</a> | 
+            <a href="https://nymag.com/">Visite o New York Magazine</a>
+        </div>
+    </div>
+</body>
+</html>
